@@ -21,6 +21,7 @@ int main()
 		}
 		Z = (y + Dobchik + 2) / (pow(y, 2) + 5);
 		cout << "Z=" << Z;
+		cout << "Κ³νεφό";
 	}
 }
 //hello

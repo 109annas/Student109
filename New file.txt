@@ -1,0 +1,19 @@
+#include <iostream>
+#define _USE_MATH_DEFINES 
+#include <math.h>
+#include "windows.h"
+
+using namespace std;
+
+int main()
+{
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+	float x, z;
+	int b;
+	printf("Введи Х: ");
+	scanf_s("%f", &x);
+	printf("Введи Z: ");
+	scanf_s("%f", &z);
+	b = static_cast<int> (((tan(135 * M_PI / 180) + pow(M_E, 3)) / (pow(x, 3) - pow(sin(x), 2))) - pow(100, (pow(z, 1.0 / 2))));
+	printf("\nРезультат прикладу: \nb=%i\n", b);
