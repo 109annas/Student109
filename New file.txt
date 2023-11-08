@@ -17,3 +17,16 @@ int main()
 	scanf_s("%f", &z);
 	b = static_cast<int> (((tan(135 * M_PI / 180) + pow(M_E, 3)) / (pow(x, 3) - pow(sin(x), 2))) - pow(100, (pow(z, 1.0 / 2))));
 	printf("\nРезультат прикладу: \nb=%i\n", b);
+
+	float X, Y, Z, b;
+	int a;
+	printf("Введи Х: ");
+	scanf_s("%f", &X);
+	printf("Введи Y: ");
+	scanf_s("%f", &Z);
+	printf("Введи Z: ");
+	scanf_s("%f", &Z);
+	b = Y - X;
+	a = static_cast<int> ((((fabs(Y - Z)) / b) / (1 + pow(b, 3))) + pow(10*Y - 17, 1.0 / 3) - pow(x, 3) - pow(Y, 3 - X));
+	printf("\nРезультат прикладу: \na=%i\n", a);
+}
