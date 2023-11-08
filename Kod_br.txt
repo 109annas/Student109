@@ -1,0 +1,17 @@
+#include <iostream>
+#include <iomanip>
+#include <math.h>
+
+using namespace std;
+int main()
+{
+	double y, x, a = 1.5, b = 2.5, h = 0.1;
+	cout << "a=" << a << '\t' << "b=" << b << '\t' << "h=" << h << endl << endl;
+	x = a;
+
+	do {
+		y = pow(x, 3) + 3 * pow(sin(x), 2) - 3;
+		cout << '|' << setw(6) << x << "\t|\t" << setw(10) << y << '|' << endl;
+		x += h;
+	} while (x <= b + h / 2);
+}
