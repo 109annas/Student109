@@ -5,8 +5,8 @@
 using namespace std;
 int main()
 {
-	double y, x, a = 1.5, b = 2.5, h = 0.1;
-	cout << "a=" << a << '\t' << "b=" << b << '\t' << "h=" << h << endl << endl;
+	float y, x, a = 1.5, b = 2.5, h = 0.1;
+	cout << "a=" << a << "****************************************************************" << '\t' << "b=" << b << '\t' << "h=" << h << endl << endl;
 	x = a;
 
 	do {
